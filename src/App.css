@@ -1,0 +1,89 @@
+
+#body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#quote-box {
+  background-color: white;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  
+}
+
+#text {
+  font-size: 28px;
+  color: var(--main-color);
+  opacity: 1;
+  transition: color 0.3s ease, opacity 0.3s ease-in;
+  
+}
+
+#author {
+  
+  font-size: 20px;
+  color: var(--main-color);
+  text-align: right;
+  opacity: 1;
+  transition: color 0.3s ease, opacity 0.3s ease-in;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.social-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+#tweet-quote,
+#tumblr-quote,
+#new-quote {
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+  .credit {
+  text-align: center;
+  margin: 20px;
+  color: white;
+ 
+}
+  
